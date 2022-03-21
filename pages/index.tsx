@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Htag } from "../components";
 import React from "react";
 import { Button } from "../components";
+import { P } from "../components";
+import { Tag } from "../components";
 
 export default function Home(): JSX.Element {
   const a = 1;
@@ -18,6 +20,12 @@ export default function Home(): JSX.Element {
       <Button appearance="ghost" arrow="down">
         Кнопка
       </Button>
+      <P Size="14">sdfds</P>
+      <P>sdfds</P>
+      <P Size="18">sdfds</P>
+      <Tag Size="s" color="green" href="https://htmlbase.ru/css/box-sizing">
+        sdfs
+      </Tag>
     </>
   );
 }
